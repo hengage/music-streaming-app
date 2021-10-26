@@ -1,7 +1,7 @@
-const Sidebar = () => {
+const Navbar = () => {
     return ( 
-        <section className="sidebar">
-            <div className="container">
+        <section className="navbar">
+            <div className="contaner">
                 <img 
                 src="../images/peermusic_logo.png" 
                 alt="peermusic logo"
@@ -14,4 +14,4 @@ const Sidebar = () => {
 }
  
 
-export default Sidebar;
+export default Navbar;

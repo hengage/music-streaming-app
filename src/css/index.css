@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  background-color: #d69d9d;
+}
+
+.container.text-center {
+  border: 2px solid black;
+  height: auto;
+  background-color: blue;
+}
+/*# sourceMappingURL=index.css.map */

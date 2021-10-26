@@ -1,0 +1,16 @@
+$primary-color : #5B97E0;
+$secondary-color: #F2F7FD;
+$text-color-black: #000000;
+$text-color-white: #F2F7FD;
+$text-color-light-black: #200110;
+
+body {
+    margin: 0;
+    background-color: rgb(214, 157, 157);
+}
+
+.container.text-center {
+    border: 2px solid black;
+    height: auto;
+    background-color: blue;
+}

@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css/"
 import Sidebar from "./components/sidebar";
+import  "./css/index.css";
 
 function App() {
   return (
