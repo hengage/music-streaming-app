@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background-color: #5B97E0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navbar {
+  background-color: #F2F7FD;
+}
+
+.navbar .logo {
+  width: 90px;
+  height: 34px;
+}
+
+.navbar .bar1, .navbar .bar2, .navbar .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+/*# sourceMappingURL=navbar.css.map */

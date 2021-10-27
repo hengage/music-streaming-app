@@ -1,12 +1,14 @@
 import "bootstrap/dist/css/bootstrap.min.css/"
-import Sidebar from "./components/sidebar";
 import  "./css/index.css";
+import Navbar from "./components/navbar";
+import Home from "./components/home";
 
 function App() {
   return (
-    <div className="container text-center">
+    <div className="conainer text-center">
       <header className="App-header">
-        <Sidebar />
+        <Navbar />
+        <Home />
       </header>
     </div>
   );

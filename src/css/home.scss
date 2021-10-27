@@ -1,0 +1,41 @@
+@import "index";
+
+.home {
+    border: 1px solid red;
+
+    h1 {
+        color: $text-color-white;
+        margin: 1em 0;
+        padding: 0.7rem;
+    }
+
+    h2 {
+        // text-align: left;
+        color: $text-color-white;
+        margin-left: -4em;
+        margin-bottom: 0.7em;
+    }
+
+    ul {
+        // background-color: red;
+        display: flex;
+        flex-direction: column;
+        // justify-content: space-between;
+    }
+    li {
+        background-color: $secondary-color;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding: 1em;
+        border-radius: 0.5rem;
+        width: 100%;
+        margin: 0.35em 0 0.1em -1em;
+
+        img {
+            width: 50px;
+            height: 30px;
+        }
+    }
+    
+}

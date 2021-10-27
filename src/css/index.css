@@ -1,11 +1,9 @@
 body {
   margin: 0;
-  background-color: #d69d9d;
+  background-color: #5B97E0;
 }
 
-.container.text-center {
-  border: 2px solid black;
-  height: auto;
-  background-color: blue;
+ul {
+  list-style-type: none;
 }
 /*# sourceMappingURL=index.css.map */
