@@ -5,17 +5,57 @@
     background-color: $secondary-color;
 
     .logo {
-        width: 90px;
-        height: 34px;
+      width: 90px;
+      height: 34px;
     }
     
-    .bar1, .bar2, .bar3 {
+    .menu-btn {
+      cursor: pointer;
+      z-index: 999;
+
+      .bar1, .bar2, .bar3 {
         width: 35px;
         height: 5px;
         background-color: #333;
         margin: 6px 0;
         transition: 0.4s;
       }
+
+      
+      .change .bar1 {
+        transform: rotate(-45deg) translate(-9px, 6px);
+      }
+      
+      .change .bar2 {opacity: 0;}
+      
+      .change .bar3 {
+        transform: rotate(45deg) translate(-8px, -8px);
+      }
+    }
+    
+    .nav-item {
+      // display: none;
+      background: $secondary-color;
+      position: fixed;
+      right: 0;
+      top: 0;
+      z-index: 99;
+      width: 66%;
+      height: 70vh;
+      padding: 1em;
+      color: #20272e;
+
+      li {
+        display: block;
+        padding: .5em;
+        font-size: 1.3em;
+        text-align: left;
+        margin-left: -1em
+      }
+      // ul {
+      //   background-color: red;
+      // }
+    }
 }
 
 

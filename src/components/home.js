@@ -11,19 +11,19 @@ const Home = () => {
                 <ul>
                     <li>
                         <img src="/images/pexels-marcelo-chagas-music.jpg" alt="song cover" 
-                        srcset="" />
+                        />
                     </li>
                     <li>
                         <img src="/images/pexels-marcelo-chagas-music.jpg" alt="song cover" 
-                        srcset="" />
+                        />
                     </li>
                     <li>
                         <img src="/images/pexels-marcelo-chagas-music.jpg" alt="song cover" 
-                        srcset="" />
+                        />
                     </li>
                     <li>
                         <img src="/images/pexels-marcelo-chagas-music.jpg" alt="song cover" 
-                        srcset="" />
+                        />
                     </li>
                 </ul>
             </section>

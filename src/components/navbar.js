@@ -1,5 +1,11 @@
 import "../css/navbar.css";
 
+const toggleMenu = (x) => {
+    x.classList.toggle("change");
+  }
+
+
+
 
 const Navbar = () => {
     return ( 
@@ -11,10 +17,24 @@ const Navbar = () => {
                     alt="peermusic logo"
                     className="logo" 
                     />
-                <div className="menu-btn">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
+                <div className="nav">
+                    <div 
+                        className="menu-btn" 
+                        onClick={()=>toggleMenu(this)}
+                    >
+                        <div className="bar1"></div>
+                        <div className="bar2"></div>
+                        <div className="bar3"></div>
+                    </div>
+
+                    <div className="nav-item">
+                        <ul>
+                            <li>Songs</li>
+                            <li>albums</li>
+                            <li>Account</li>
+                            <li>My playlist</li>
+                        </ul>
+                    </div>
                 </div>
 
             </div>

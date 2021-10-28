@@ -15,12 +15,15 @@ ul {
   color: #F2F7FD;
   margin: 1em 0;
   padding: 0.7rem;
+  font-weight: bolder;
+  font-size: 1.8em;
 }
 
 .home h2 {
   color: #F2F7FD;
   margin-left: -4em;
   margin-bottom: 0.7em;
+  font-weight: bold;
 }
 
 .home ul {
