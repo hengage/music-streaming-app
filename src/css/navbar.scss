@@ -20,21 +20,20 @@
         margin: 6px 0;
         transition: 0.4s;
       }
-
       
-      .change .bar1 {
+      .change.bar1 {
         transform: rotate(-45deg) translate(-9px, 6px);
       }
       
-      .change .bar2 {opacity: 0;}
+      .change.bar2 {opacity: 0;}
       
-      .change .bar3 {
+      .change.bar3 {
         transform: rotate(45deg) translate(-8px, -8px);
       }
     }
     
     .nav-item {
-      // display: none;
+      display: none;
       background: $secondary-color;
       position: fixed;
       right: 0;

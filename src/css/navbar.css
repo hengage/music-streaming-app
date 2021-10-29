@@ -30,21 +30,22 @@ ul {
   transition: 0.4s;
 }
 
-.navbar .menu-btn .change .bar1 {
+.navbar .menu-btn .change.bar1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px);
           transform: rotate(-45deg) translate(-9px, 6px);
 }
 
-.navbar .menu-btn .change .bar2 {
+.navbar .menu-btn .change.bar2 {
   opacity: 0;
 }
 
-.navbar .menu-btn .change .bar3 {
+.navbar .menu-btn .change.bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
           transform: rotate(45deg) translate(-8px, -8px);
 }
 
 .navbar .nav-item {
+  display: none;
   background: #F2F7FD;
   position: fixed;
   right: 0;
