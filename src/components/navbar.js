@@ -31,7 +31,7 @@ const Navbar = () => {
                         id="menubtn"
                         onClick={toggleMenu}
                     >
-                        <div className={`bar1 ${isActive ? "change": "bar1"}`}></div>
+                        <div className={`bar1 ${isActive ? "change": ""}`}></div>
                         <div className={`bar2 ${isActive ? "change": ""}`}></div>
                         <div className={`bar3 ${isActive ? "change": ""}`}></div>
 
@@ -42,7 +42,9 @@ const Navbar = () => {
                         
                     </div>
 
-                    <div className="nav-item">
+                    <div 
+                        className={`nav-list-items ${isActive ? "show-nav-list-items": ""}`}
+                    >
                         <ul>
                             <li>Songs</li>
                             <li>albums</li>

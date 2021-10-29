@@ -1,7 +1,6 @@
 @import "index";
 
 .home {
-    border: 1px solid red;
 
     h1 {
         color: $text-color-white;
@@ -14,7 +13,7 @@
     h2 {
         // text-align: left;
         color: $text-color-white;
-        margin-left: -4em;
+        margin-left: -3em;
         margin-bottom: 0.7em;
         font-weight: bold;
     }

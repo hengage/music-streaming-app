@@ -7,10 +7,6 @@ ul {
   list-style-type: none;
 }
 
-.home {
-  border: 1px solid red;
-}
-
 .home h1 {
   color: #F2F7FD;
   margin: 1em 0;
@@ -21,7 +17,7 @@ ul {
 
 .home h2 {
   color: #F2F7FD;
-  margin-left: -4em;
+  margin-left: -3em;
   margin-bottom: 0.7em;
   font-weight: bold;
 }

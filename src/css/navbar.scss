@@ -3,6 +3,8 @@
 
 .navbar {
     background-color: $secondary-color;
+    // padding: 1em;
+    height: 70px;
 
     .logo {
       width: 90px;
@@ -23,37 +25,49 @@
       
       .change.bar1 {
         transform: rotate(-45deg) translate(-9px, 6px);
+        background-color: $secondary-color;
       }
       
       .change.bar2 {opacity: 0;}
+
       
       .change.bar3 {
         transform: rotate(45deg) translate(-8px, -8px);
+        background-color: $secondary-color;
+        margin-bottom: .5em;
       }
     }
     
-    .nav-item {
+    .nav-list-items {
       display: none;
-      background: $secondary-color;
+      background-color: $text-color-light-black;
       position: fixed;
       right: 0;
       top: 0;
       z-index: 99;
-      width: 66%;
+      width: 76%;
       height: 70vh;
       padding: 1em;
       color: #20272e;
 
-      li {
-        display: block;
-        padding: .5em;
-        font-size: 1.3em;
-        text-align: left;
-        margin-left: -1em
+      ul {
+        // background-color: red;
+        margin-top: 4.5em;
+
+        li {
+          display: block;
+          padding: .5em;
+          font-size: 1.3em;
+          text-align: right;
+          // margin-top: 1em;
+          color: $text-color-white
+        }
+        
       }
-      // ul {
-      //   background-color: red;
-      // }
+    }
+
+    .nav-list-items.show-nav-list-items {
+      display: block;
     }
 }
 

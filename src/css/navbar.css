@@ -9,6 +9,7 @@ ul {
 
 .navbar {
   background-color: #F2F7FD;
+  height: 70px;
 }
 
 .navbar .logo {
@@ -33,6 +34,7 @@ ul {
 .navbar .menu-btn .change.bar1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px);
           transform: rotate(-45deg) translate(-9px, 6px);
+  background-color: #F2F7FD;
 }
 
 .navbar .menu-btn .change.bar2 {
@@ -42,26 +44,36 @@ ul {
 .navbar .menu-btn .change.bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
           transform: rotate(45deg) translate(-8px, -8px);
+  background-color: #F2F7FD;
+  margin-bottom: .5em;
 }
 
-.navbar .nav-item {
+.navbar .nav-list-items {
   display: none;
-  background: #F2F7FD;
+  background-color: #200110;
   position: fixed;
   right: 0;
   top: 0;
   z-index: 99;
-  width: 66%;
+  width: 76%;
   height: 70vh;
   padding: 1em;
   color: #20272e;
 }
 
-.navbar .nav-item li {
+.navbar .nav-list-items ul {
+  margin-top: 4.5em;
+}
+
+.navbar .nav-list-items ul li {
   display: block;
   padding: .5em;
   font-size: 1.3em;
-  text-align: left;
-  margin-left: -1em;
+  text-align: right;
+  color: #F2F7FD;
+}
+
+.navbar .nav-list-items.show-nav-list-items {
+  display: block;
 }
 /*# sourceMappingURL=navbar.css.map */
